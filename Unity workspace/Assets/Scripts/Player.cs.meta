@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7bc71b38204f1424381e911e46b0c2de
+timeCreated: 1470132921
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cuttlefishPrefab: {fileID: 143798, guid: ec8ea99f9c598904f826dea2ae109a97, type: 2}
+  - snapperPrefab: {fileID: 177340, guid: cfc5ba255d591e34a8b6e5090b47dc3d, type: 2}
+  - lobsterPrefab: {fileID: 117782, guid: 2b3e7cee475d4d047b86d62a479b7ade, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

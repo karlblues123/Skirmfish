@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: c88b98ddcd2728642bc599b852b2bcc5
+timeCreated: 1470125220
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Snapper_0
+    21300002: Snapper_1
+    21300004: Snapper_2
+    21300006: Snapper_3
+    21300008: Snapper_4
+    21300010: Snapper_5
+    21300012: Snapper_6
+    21300014: Snapper_7
+    21300016: Snapper_8
+    21300018: Snapper_9
+    21300020: Snapper_10
+    21300022: Snapper_11
+    21300024: Snapper_12
+    21300026: Snapper_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Snapper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 21}
+        - {x: -17, y: 21}
+        - {x: -37, y: 16}
+        - {x: -40, y: 12}
+        - {x: -40, y: -11}
+        - {x: -15, y: -21}
+        - {x: 21, y: -21}
+        - {x: 38, y: -12}
+        - {x: 38, y: 4}
+        - {x: 37, y: 8}
+    - name: Snapper_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 21}
+        - {x: -34, y: 20}
+        - {x: -35, y: 13}
+        - {x: -35, y: -8}
+        - {x: -18, y: -21}
+        - {x: 35, y: -21}
+        - {x: 38, y: -13}
+        - {x: 38, y: 17}
+        - {x: 23, y: 21}
+    - name: Snapper_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 21}
+        - {x: -40, y: 19}
+        - {x: -40, y: -11}
+        - {x: -19, y: -21}
+        - {x: 8, y: -21}
+        - {x: 40, y: -17}
+        - {x: 40, y: -3}
+        - {x: 37, y: 8}
+        - {x: 28, y: 21}
+      - - {x: 37, y: 16}
+        - {x: 39, y: 14}
+        - {x: 40, y: 14}
+        - {x: 40, y: 22}
+        - {x: 37, y: 21}
+    - name: Snapper_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -21}
+        - {x: 28, y: -21}
+        - {x: 38, y: -17}
+        - {x: 38, y: 6}
+        - {x: 26, y: 22}
+        - {x: -40, y: 22}
+        - {x: -40, y: -15}
+    - name: Snapper_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 24}
+        - {x: 9, y: 25}
+        - {x: -26, y: 25}
+        - {x: -33, y: 24}
+        - {x: -33, y: -17}
+        - {x: -23, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -23}
+        - {x: 26, y: -7}
+        - {x: 26, y: 11}
+    - name: Snapper_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -31, y: 25}
+        - {x: -40, y: 18}
+        - {x: -40, y: -5}
+        - {x: -30, y: -23}
+        - {x: -21, y: -25}
+        - {x: 9, y: -25}
+        - {x: 31, y: -13}
+        - {x: 31, y: 11}
+        - {x: 29, y: 20}
+    - name: Snapper_6
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -27, y: 24}
+        - {x: -39, y: 11}
+        - {x: -39, y: -7}
+        - {x: -31, y: -24}
+        - {x: 10, y: -24}
+        - {x: 20, y: 19}
+        - {x: 20, y: 23}
+        - {x: 17, y: 25}
+      - - {x: 16, y: -19}
+        - {x: 18, y: -24}
+        - {x: 28, y: -24}
+        - {x: 29, y: -23}
+        - {x: 29, y: -14}
+        - {x: 26, y: -9}
+        - {x: 19, y: -9}
+        - {x: 16, y: -13}
+      - - {x: 22, y: 1}
+        - {x: 21, y: -1}
+        - {x: 21, y: -6}
+        - {x: 37, y: -6}
+        - {x: 38, y: -3}
+        - {x: 37, y: 0}
+        - {x: 31, y: 1}
+      - - {x: 29, y: 13}
+        - {x: 25, y: 11}
+        - {x: 25, y: 7}
+        - {x: 28, y: 5}
+        - {x: 31, y: 5}
+        - {x: 35, y: 10}
+        - {x: 35, y: 12}
+        - {x: 33, y: 13}
+      - - {x: 21, y: 21}
+        - {x: 19, y: 17}
+        - {x: 19, y: 15}
+        - {x: 22, y: 13}
+        - {x: 24, y: 13}
+        - {x: 30, y: 19}
+        - {x: 30, y: 21}
+        - {x: 27, y: 22}
+    - name: Snapper_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -27, y: 24}
+        - {x: -39, y: 11}
+        - {x: -39, y: -7}
+        - {x: -31, y: -24}
+        - {x: 10, y: -24}
+        - {x: 20, y: 19}
+        - {x: 20, y: 23}
+        - {x: 17, y: 25}
+      - - {x: 16, y: -19}
+        - {x: 18, y: -24}
+        - {x: 28, y: -24}
+        - {x: 29, y: -23}
+        - {x: 29, y: -14}
+        - {x: 26, y: -9}
+        - {x: 19, y: -9}
+        - {x: 16, y: -13}
+      - - {x: 22, y: 1}
+        - {x: 21, y: -1}
+        - {x: 21, y: -6}
+        - {x: 37, y: -6}
+        - {x: 38, y: -3}
+        - {x: 37, y: 0}
+        - {x: 31, y: 1}
+      - - {x: 29, y: 13}
+        - {x: 25, y: 11}
+        - {x: 25, y: 7}
+        - {x: 28, y: 5}
+        - {x: 31, y: 5}
+        - {x: 35, y: 10}
+        - {x: 35, y: 12}
+        - {x: 33, y: 13}
+      - - {x: 21, y: 21}
+        - {x: 19, y: 17}
+        - {x: 19, y: 15}
+        - {x: 22, y: 13}
+        - {x: 24, y: 13}
+        - {x: 30, y: 19}
+        - {x: 30, y: 21}
+        - {x: 27, y: 22}
+    - name: Snapper_8
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -21, y: 24}
+        - {x: -35, y: 6}
+        - {x: -35, y: -12}
+        - {x: -13, y: -25}
+        - {x: 16, y: -25}
+        - {x: 21, y: -22}
+        - {x: 37, y: -9}
+        - {x: 37, y: 13}
+        - {x: 27, y: 25}
+    - name: Snapper_9
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 25}
+        - {x: -40, y: -23}
+        - {x: 12, y: -23}
+        - {x: 34, y: -7}
+        - {x: 34, y: 21}
+        - {x: 20, y: 25}
+    - name: Snapper_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 18}
+        - {x: -39, y: 9}
+        - {x: -40, y: 8}
+        - {x: -40, y: -23}
+        - {x: 40, y: -23}
+        - {x: 40, y: 7}
+        - {x: 20, y: 18}
+    - name: Snapper_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 24}
+        - {x: -34, y: 22}
+        - {x: -34, y: -23}
+        - {x: 40, y: -23}
+        - {x: 40, y: 9}
+        - {x: 29, y: 24}
+    - name: Snapper_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 10}
+        - {x: 7, y: 18}
+        - {x: -7, y: 18}
+        - {x: -8, y: 15}
+        - {x: -7, y: 12}
+        - {x: -11, y: 16}
+        - {x: -23, y: 18}
+        - {x: -30, y: 18}
+        - {x: -40, y: 12}
+        - {x: -40, y: -14}
+        - {x: -25, y: -23}
+        - {x: 29, y: -23}
+        - {x: 36, y: -16}
+        - {x: 39, y: -7}
+        - {x: 39, y: -3}
+      - - {x: 37, y: -14}
+        - {x: 39, y: -16}
+        - {x: 40, y: -16}
+        - {x: 40, y: -11}
+        - {x: 38, y: -11}
+      - - {x: 12, y: 19}
+        - {x: 10, y: 17}
+        - {x: 11, y: 14}
+        - {x: 23, y: 8}
+        - {x: 25, y: 8}
+        - {x: 27, y: 9}
+        - {x: 27, y: 12}
+        - {x: 19, y: 19}
+    - name: Snapper_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 5}
+        - {x: -21, y: 1}
+        - {x: -20, y: -3}
+        - {x: -19, y: -2}
+        - {x: -25, y: -3}
+        - {x: -29, y: -2}
+        - {x: -40, y: 1}
+        - {x: -40, y: -20}
+        - {x: 38, y: -20}
+        - {x: 38, y: -1}
+        - {x: 20, y: 5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

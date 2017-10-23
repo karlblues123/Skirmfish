@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SkirmFish</title>
+    <style>
+        @font-face {
+            font-family: gameFont;
+            src: url('Data/Art/BubbleMan.ttf')
+        }
+    </style>
+    <script src="Data/GameObject.js"></script>
+    <script src="Data/Hitbox.js"></script>
+    <script src="Data/Vector.js"></script>
+    <script src="Data/Sprite.js"></script>
+    <script src="Data/AnimatedSprite.js"></script> 
+    <script src="Data/State.js"></script>
+    <script src="Data/BubbleParticle.js"></script>
+    <script src="Data/BubblePool.js"></script>    
+    <script src="Data/Fish.js"></script>
+    <script src="Data/Algae.js"></script>
+    <script src="Data/AlgaePool.js"></script>
+    <script src="Data/Lane.js"></script>
+    <script src="Data/Player.js"></script>
+    <script src="Data/GameProper.js"></script>
+    <script src="Data/MainMenu.js"></script>    
+</head>
+<body onload = "gameLoop()">
+	<center>
+		<canvas style="font-family: gameFont;" id = "GameScreen" width = "1000" height = "600"/>
+	</center>
+</body>
+<script src="Data/SkirmFish.js"></script>
+<script>
+var skirmfish = new SkirmFish(document.getElementById("GameScreen"));
+document.addEventListener("keypress",function(event) {
+    skirmfish.eventHandler(event);
+});
+    
+var gameLoop = function() {
+    skirmfish.update();
+    skirmfish.draw();
+    setTimeout(gameLoop,1000/60);
+}    
+</script>    
+</html>	
