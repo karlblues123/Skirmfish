@@ -290,9 +290,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Merge\Gluon\Errors\ErrorsListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetsUtils\RefreshAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\DrawSplitter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\StatusBar\StatusBar.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\WorkspaceWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetsUtils\RepaintInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\UI\StatusBar\StatusBar.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\AssetOverlays\Cache\LockStatusCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\PlasticPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy\Editor\Views\Welcome\WelcomeView.cs" />

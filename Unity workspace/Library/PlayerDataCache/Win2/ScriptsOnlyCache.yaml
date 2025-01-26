@@ -100,39 +100,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 7256}
+      Script: {instanceID: 7258}
     - Class: 114
-      Script: {instanceID: 7288}
+      Script: {instanceID: 7290}
     - Class: 114
-      Script: {instanceID: 7788}
+      Script: {instanceID: 7790}
     - Class: 114
-      Script: {instanceID: 8022}
+      Script: {instanceID: 8024}
     - Class: 114
-      Script: {instanceID: 8432}
+      Script: {instanceID: 8434}
     - Class: 114
-      Script: {instanceID: 9054}
+      Script: {instanceID: 9056}
     - Class: 114
-      Script: {instanceID: 9308}
+      Script: {instanceID: 9310}
     - Class: 114
-      Script: {instanceID: 9374}
+      Script: {instanceID: 9376}
     - Class: 114
-      Script: {instanceID: 9604}
+      Script: {instanceID: 9606}
     - Class: 114
-      Script: {instanceID: 9860}
+      Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 10374}
+      Script: {instanceID: 10376}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10750}
     - Class: 114
-      Script: {instanceID: 10876}
+      Script: {instanceID: 10878}
     - Class: 114
-      Script: {instanceID: 11128}
+      Script: {instanceID: 11130}
     - Class: 114
-      Script: {instanceID: 11836}
+      Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12142}
+      Script: {instanceID: 12146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -181,25 +181,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 7788}
+      Script: {instanceID: 7790}
     - Class: 114
-      Script: {instanceID: 8022}
+      Script: {instanceID: 8024}
     - Class: 114
-      Script: {instanceID: 9054}
+      Script: {instanceID: 9056}
     - Class: 114
-      Script: {instanceID: 9374}
+      Script: {instanceID: 9376}
     - Class: 114
-      Script: {instanceID: 9604}
+      Script: {instanceID: 9606}
     - Class: 114
-      Script: {instanceID: 10374}
+      Script: {instanceID: 10376}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10750}
     - Class: 114
-      Script: {instanceID: 11128}
+      Script: {instanceID: 11130}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 36326}
+      Script: {instanceID: 11770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -725,6 +725,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: bcbbe8e4848d09c769e41a0141226359
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Carousel
+  - hash:
+      serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -813,12 +819,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: BasicPlayableBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: bcbbe8e4848d09c769e41a0141226359
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Carousel
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
