@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         }
         if(this.currentHealth <= 0)
         {
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
     }
 

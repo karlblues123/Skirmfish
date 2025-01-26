@@ -76,6 +76,7 @@ public class GameManager : MonoBehaviour {
         {
             GameObject.Find("Lane " + i).GetComponent<AlgaeSpawner>().enabled = false;
         }
+        this.announcerText.fontSize = 50;
         if (this.player1.currentHealth <= 0)
             this.announcerText.text = "Player 2 is the Winner";
         else if (this.player2.currentHealth <= 0)

@@ -16,11 +16,11 @@ public class Unit : MonoBehaviour {
         this.maxHealth = 200;
         this.currentHealth = this.maxHealth;
         this.damage = 20;
-        rigidBody.velocity = new Vector2(speed, 0);
+        rigidBody.linearVelocity = new Vector2(speed, 0);
         if(this.playerIndex == 2)
         {
             this.gameObject.GetComponent<SpriteRenderer>().flipX = true;
-            rigidBody.velocity *= -1;
+            rigidBody.linearVelocity *= -1;
         }
     }
 
@@ -32,9 +32,9 @@ public class Unit : MonoBehaviour {
         }
         if(lockedOnEnemy == null && enemyPlayer == null)
         {
-            this.rigidBody.velocity = Vector2.right;
+            this.rigidBody.linearVelocity = Vector2.right;
             if (this.playerIndex == 2)
-                rigidBody.velocity *= -1;
+                rigidBody.linearVelocity *= -1;
             animator.SetBool("isAttacking", false);
         }
     }
@@ -46,7 +46,7 @@ public class Unit : MonoBehaviour {
             if (collider.GetComponent<Unit>().playerIndex != this.playerIndex)
             {
                 this.lockedOnEnemy = collider.GetComponent<Unit>();
-                this.rigidBody.velocity = Vector2.zero;
+                this.rigidBody.linearVelocity = Vector2.zero;
                 this.animator.SetBool("isAttacking", true);
             }
         }
@@ -55,7 +55,7 @@ public class Unit : MonoBehaviour {
             if (collider.GetComponent<Player>().playerIndex != this.playerIndex)
             {
                 this.enemyPlayer = collider.gameObject.GetComponent<Player>();
-                this.rigidBody.velocity = Vector2.zero;
+                this.rigidBody.linearVelocity = Vector2.zero;
                 this.animator.SetBool("isAttacking", true);
             }
         }

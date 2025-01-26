@@ -1,0 +1,513 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1737893989750046, "dur":19236, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893989769286, "dur":114, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893989769441, "dur":362, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893989769972, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1737893989770112, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1737893989770636, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989770996, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989771116, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Components.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989771232, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989771583, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989771707, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989771868, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989772418, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737893989769830, "dur":3603, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893989773434, "dur":850585, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893990624020, "dur":266, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893990624411, "dur":1169, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1737893989770155, "dur":3286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737893989773936, "dur":458, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/6000.0.34f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1737893989774395, "dur":2559, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/6000.0.34f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1737893989776993, "dur":622, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1737893989777642, "dur":58, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/6000.0.34f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1737893989777700, "dur":58, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win2/Data" }}
+,{ "pid":12345, "tid":1, "ts":1737893989773444, "dur":4354, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737893989777890, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/GitHub/Skirmfish/Unity workspace/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1737893989778773, "dur":693, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737893989780090, "dur":29097, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989780077, "dur":29112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989809199, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989810352, "dur":35877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989810339, "dur":35892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989846250, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989847510, "dur":117116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989847497, "dur":117130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989964638, "dur":5185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989969844, "dur":38114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893989969827, "dur":38133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990007980, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990011542, "dur":54314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990011525, "dur":54333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990065875, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990066797, "dur":348101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990066784, "dur":348116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990414933, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990418270, "dur":40323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990418256, "dur":40341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990458624, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990462598, "dur":138733, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990462583, "dur":138750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990601351, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737893990602193, "dur":21832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989770573, "dur":2895, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989773471, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989773791, "dur":192, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989773983, "dur":216, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989774199, "dur":324, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989774523, "dur":3282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989778030, "dur":2050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737893989780099, "dur":1104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989780083, "dur":1121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989790213, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989790874, "dur":31315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989790861, "dur":31330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989822208, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989823210, "dur":74294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989823172, "dur":74334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989897535, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989899129, "dur":59778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989899115, "dur":59794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989958931, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989959766, "dur":37709, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989959751, "dur":37728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989997503, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989998392, "dur":130173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893989998378, "dur":130188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990128582, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990131573, "dur":56692, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990131558, "dur":56709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990188284, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990190479, "dur":150872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990190464, "dur":150889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990341390, "dur":57442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990398909, "dur":77730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990398836, "dur":77805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990476660, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990477360, "dur":65845, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990477345, "dur":65862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990543225, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737893990544040, "dur":79977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989770204, "dur":3244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989773457, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989773793, "dur":227, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989774020, "dur":223, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989774244, "dur":3559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989777807, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1737893989777994, "dur":2077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737893989780093, "dur":28899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989780071, "dur":28923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989809005, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989811178, "dur":87740, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989811166, "dur":87753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989898934, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989900043, "dur":34385, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989900028, "dur":34402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989934441, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989935255, "dur":27839, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989935241, "dur":27855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989963115, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989963801, "dur":44647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893989963785, "dur":44664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990008462, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990009422, "dur":51979, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990009410, "dur":51993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990061434, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990062825, "dur":73319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990062811, "dur":73334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990136163, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990136920, "dur":25601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990136906, "dur":25617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990162540, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990163257, "dur":77112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990163244, "dur":77127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990240380, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990242260, "dur":93011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990242246, "dur":93027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990335295, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990337988, "dur":23768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990337974, "dur":23784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990361779, "dur":39404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990401200, "dur":222180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990401185, "dur":222197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737893990623415, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989770392, "dur":3069, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989773464, "dur":308, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989773773, "dur":207, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989773981, "dur":216, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989774197, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989774516, "dur":3296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989777907, "dur":73, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Skirmfish/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1737893989778022, "dur":2055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737893989780095, "dur":1055, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989780077, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989781898, "dur":3797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989785708, "dur":71363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989785696, "dur":71377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989857094, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989857827, "dur":113498, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989857814, "dur":113513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989971351, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989972287, "dur":54192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893989972271, "dur":54211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990026499, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990027461, "dur":34103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990027446, "dur":34120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990061577, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990064002, "dur":108052, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990063989, "dur":108067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990172075, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990174410, "dur":135067, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990174392, "dur":135087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990309496, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990310234, "dur":44145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990310221, "dur":44159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990354394, "dur":46752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990401164, "dur":90304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990401149, "dur":90322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990491487, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990492503, "dur":1449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990492490, "dur":1464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990493969, "dur":14517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990508506, "dur":28553, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990508489, "dur":28572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990537083, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990538445, "dur":30053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990538428, "dur":30072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990568533, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737893990569113, "dur":54953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989770732, "dur":2743, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989773479, "dur":321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989773800, "dur":199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989774000, "dur":236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989774236, "dur":227, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989774463, "dur":3347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989777810, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1737893989778015, "dur":2060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737893989780095, "dur":92846, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989780078, "dur":92865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989872959, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989874210, "dur":52231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989874196, "dur":52248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989926463, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989927190, "dur":36747, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989927177, "dur":36761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989963950, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989965000, "dur":27431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989964985, "dur":27448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989992447, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989994222, "dur":34729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893989994205, "dur":34748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990028966, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990029496, "dur":45869, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990029483, "dur":45883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990075378, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990077512, "dur":54271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990077499, "dur":54285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990131798, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990132541, "dur":30810, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990132529, "dur":30823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990163363, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990164578, "dur":92400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990164565, "dur":92415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990256996, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990257706, "dur":52673, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990257692, "dur":52689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990310391, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990311650, "dur":31566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990311637, "dur":31581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990343238, "dur":57906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990401164, "dur":99848, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990401149, "dur":99866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990501042, "dur":7675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990508731, "dur":56028, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990508719, "dur":56041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990564783, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737893990568150, "dur":55863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989771095, "dur":2404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989773502, "dur":332, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989773835, "dur":242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989774077, "dur":337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989774414, "dur":3385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989777880, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":6, "ts":1737893989777941, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1737893989778627, "dur":1446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989780092, "dur":89948, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989780074, "dur":89968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989870062, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989870886, "dur":28435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989870871, "dur":28451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989899332, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989900256, "dur":34120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989900241, "dur":34138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989934399, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989935622, "dur":43881, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989935611, "dur":43894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989980218, "dur":1256, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737893989979524, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989981565, "dur":37275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893989981533, "dur":37309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990018862, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990019582, "dur":32638, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990019568, "dur":32657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990052244, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990052928, "dur":45009, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990052914, "dur":45025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990097957, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990098930, "dur":42326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990098916, "dur":42342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990141275, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990142376, "dur":63966, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990142363, "dur":63981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990206360, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990208427, "dur":204695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990208414, "dur":204710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990413209, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990416787, "dur":62508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990416773, "dur":62524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990479316, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990480172, "dur":28203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990480159, "dur":28217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990508396, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990509732, "dur":39572, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990509712, "dur":39593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990549327, "dur":18253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737893990567587, "dur":56424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989770967, "dur":2525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989773495, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989773803, "dur":216, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989774020, "dur":230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989774250, "dur":3552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989777808, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":7, "ts":1737893989777954, "dur":79, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1737893989778034, "dur":2054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737893989780103, "dur":1046, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989780088, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989781616, "dur":4299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989785959, "dur":145132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989785939, "dur":145154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989931107, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989932979, "dur":31419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989932960, "dur":31440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989964412, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989965541, "dur":71711, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893989965528, "dur":71726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990037272, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990040860, "dur":225010, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990040844, "dur":225028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990265892, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990266794, "dur":117998, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990266780, "dur":118014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990384815, "dur":18331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990403167, "dur":80652, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990403149, "dur":80672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990483838, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990485909, "dur":31904, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990485892, "dur":31923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990517836, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990518616, "dur":64032, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990518595, "dur":64055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990582666, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737893990583214, "dur":40825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989770834, "dur":2650, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989773487, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989773807, "dur":220, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989774027, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989774383, "dur":3417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989777864, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1737893989777993, "dur":2076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737893989780091, "dur":44841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989780070, "dur":44864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989824952, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989828879, "dur":82177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989828863, "dur":82195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989911077, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989911954, "dur":40547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989911938, "dur":40565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989952515, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989953127, "dur":31956, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989953116, "dur":31969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989985127, "dur":6743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989991889, "dur":134660, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893989991873, "dur":134677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990126563, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990127768, "dur":45520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990127746, "dur":45544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990173307, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990176256, "dur":29295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990176167, "dur":29387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990205596, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990208098, "dur":36158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990208083, "dur":36176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990244280, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990244961, "dur":91622, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990244945, "dur":91640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990336602, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990340668, "dur":36861, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990340654, "dur":36878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990377551, "dur":24594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990402161, "dur":71421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990402147, "dur":71437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990473604, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990474268, "dur":103413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990474257, "dur":103425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990577701, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737893990578262, "dur":45790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989771241, "dur":2269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989773514, "dur":316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989773831, "dur":237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989774068, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989774405, "dur":3399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989777989, "dur":2083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737893989780107, "dur":28633, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989780073, "dur":28669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989808787, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989810183, "dur":30611, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989810168, "dur":30627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989840813, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989841520, "dur":56993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989841506, "dur":57010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989898535, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989899184, "dur":52001, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989899173, "dur":52014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989951210, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989952364, "dur":93978, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893989952350, "dur":93994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990046363, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990047779, "dur":157875, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990047762, "dur":157894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990205666, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990208411, "dur":31792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990208398, "dur":31807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990240225, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990242540, "dur":187995, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990242523, "dur":188014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990430557, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990431371, "dur":175264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990431358, "dur":175279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990606655, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737893990611986, "dur":12090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989771448, "dur":2083, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989773533, "dur":313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989773846, "dur":214, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989774061, "dur":342, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989774404, "dur":3404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989778016, "dur":2066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737893989780096, "dur":1052, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989780082, "dur":1068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989781692, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989785578, "dur":48492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989785559, "dur":48513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989834092, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989835434, "dur":52336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989835418, "dur":52354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989887793, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989888470, "dur":41972, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989888457, "dur":41988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989930463, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989933148, "dur":44875, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989933135, "dur":44890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989978043, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989980125, "dur":1486, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989980111, "dur":1502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989981625, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989982353, "dur":833, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989982338, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989983207, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989985214, "dur":42027, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893989985195, "dur":42293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990027503, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990028802, "dur":46163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Components.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990028788, "dur":46179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Components.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990075101, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Components.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990077331, "dur":196118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990077318, "dur":196133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990273469, "dur":5081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990278568, "dur":246672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990278554, "dur":246688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990525261, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990528774, "dur":60934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990528748, "dur":60962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990589730, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737893990590456, "dur":33576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989771417, "dur":2102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989773521, "dur":338, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989773859, "dur":220, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989774080, "dur":360, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989774440, "dur":3375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989778002, "dur":2065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737893989780085, "dur":49138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893989780068, "dur":49157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893989829240, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893989829944, "dur":171550, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893989829922, "dur":171574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990001515, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990002533, "dur":29881, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990002516, "dur":29900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990032433, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990033192, "dur":93009, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990033177, "dur":93026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990126222, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990127535, "dur":71335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990127521, "dur":71351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990198889, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990199554, "dur":96312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990199542, "dur":96326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990295887, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990296598, "dur":188150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990296585, "dur":188164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990484818, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990486154, "dur":5366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990486139, "dur":5382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990491532, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990492414, "dur":57192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990492397, "dur":57210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990549620, "dur":18312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737893990567934, "dur":56137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989771548, "dur":1991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989773539, "dur":335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989773875, "dur":211, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989774087, "dur":351, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989774438, "dur":3368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989777807, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1737893989777996, "dur":2073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893989780084, "dur":1103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989780069, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989795808, "dur":4224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989800054, "dur":59683, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989800036, "dur":59703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989859756, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989860433, "dur":927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989860421, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989861378, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989861993, "dur":808, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989861981, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989862816, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989863851, "dur":36358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989863838, "dur":36373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989900221, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989901801, "dur":32913, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989901783, "dur":32932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989934725, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989935416, "dur":87439, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893989935405, "dur":87453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990022902, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990024987, "dur":33424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990024964, "dur":33449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990058432, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990059107, "dur":33079, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990059094, "dur":33093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990092205, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990092888, "dur":146025, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990092876, "dur":146040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990238937, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990242354, "dur":111559, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990242341, "dur":111574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990401490, "dur":167, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737893990353937, "dur":47729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990401689, "dur":177674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990401668, "dur":177697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990579385, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Skirmfish/Skirmfish_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737893990580922, "dur":43123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737893990626606, "dur":786, "ph":"X", "name": "ProfilerWriteOutput" }
+,

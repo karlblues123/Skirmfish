@@ -1,31 +1,60 @@
 fileFormatVersion: 2
 guid: c88b98ddcd2728642bc599b852b2bcc5
-timeCreated: 1470125220
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Snapper_0
-    21300002: Snapper_1
-    21300004: Snapper_2
-    21300006: Snapper_3
-    21300008: Snapper_4
-    21300010: Snapper_5
-    21300012: Snapper_6
-    21300014: Snapper_7
-    21300016: Snapper_8
-    21300018: Snapper_9
-    21300020: Snapper_10
-    21300022: Snapper_11
-    21300024: Snapper_12
-    21300026: Snapper_13
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Snapper_0
+  - first:
+      213: 21300002
+    second: Snapper_1
+  - first:
+      213: 21300004
+    second: Snapper_2
+  - first:
+      213: 21300006
+    second: Snapper_3
+  - first:
+      213: 21300008
+    second: Snapper_4
+  - first:
+      213: 21300010
+    second: Snapper_5
+  - first:
+      213: 21300012
+    second: Snapper_6
+  - first:
+      213: 21300014
+    second: Snapper_7
+  - first:
+      213: 21300016
+    second: Snapper_8
+  - first:
+      213: 21300018
+    second: Snapper_9
+  - first:
+      213: 21300020
+    second: Snapper_10
+  - first:
+      213: 21300022
+    second: Snapper_11
+  - first:
+      213: 21300024
+    second: Snapper_12
+  - first:
+      213: 21300026
+    second: Snapper_13
+  externalObjects: {}
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -33,38 +62,97 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Snapper_0
+    - serializedVersion: 2
+      name: Snapper_0
       rect:
         serializedVersion: 2
         x: 0
@@ -74,18 +162,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18, y: 21}
-        - {x: -17, y: 21}
-        - {x: -37, y: 16}
-        - {x: -40, y: 12}
-        - {x: -40, y: -11}
-        - {x: -15, y: -21}
-        - {x: 21, y: -21}
-        - {x: 38, y: -12}
-        - {x: 38, y: 4}
-        - {x: 37, y: 8}
-    - name: Snapper_1
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_1
       rect:
         serializedVersion: 2
         x: 80
@@ -95,17 +184,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 21}
-        - {x: -34, y: 20}
-        - {x: -35, y: 13}
-        - {x: -35, y: -8}
-        - {x: -18, y: -21}
-        - {x: 35, y: -21}
-        - {x: 38, y: -13}
-        - {x: 38, y: 17}
-        - {x: 23, y: 21}
-    - name: Snapper_2
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_2
       rect:
         serializedVersion: 2
         x: 160
@@ -115,22 +206,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -37, y: 21}
-        - {x: -40, y: 19}
-        - {x: -40, y: -11}
-        - {x: -19, y: -21}
-        - {x: 8, y: -21}
-        - {x: 40, y: -17}
-        - {x: 40, y: -3}
-        - {x: 37, y: 8}
-        - {x: 28, y: 21}
-      - - {x: 37, y: 16}
-        - {x: 39, y: 14}
-        - {x: 40, y: 14}
-        - {x: 40, y: 22}
-        - {x: 37, y: 21}
-    - name: Snapper_3
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_3
       rect:
         serializedVersion: 2
         x: 240
@@ -140,15 +228,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -33, y: -21}
-        - {x: 28, y: -21}
-        - {x: 38, y: -17}
-        - {x: 38, y: 6}
-        - {x: 26, y: 22}
-        - {x: -40, y: 22}
-        - {x: -40, y: -15}
-    - name: Snapper_4
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_4
       rect:
         serializedVersion: 2
         x: 316
@@ -158,18 +250,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 24}
-        - {x: 9, y: 25}
-        - {x: -26, y: 25}
-        - {x: -33, y: 24}
-        - {x: -33, y: -17}
-        - {x: -23, y: -25}
-        - {x: 15, y: -25}
-        - {x: 17, y: -23}
-        - {x: 26, y: -7}
-        - {x: 26, y: 11}
-    - name: Snapper_5
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_5
       rect:
         serializedVersion: 2
         x: 386
@@ -179,18 +272,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 25}
-        - {x: -31, y: 25}
-        - {x: -40, y: 18}
-        - {x: -40, y: -5}
-        - {x: -30, y: -23}
-        - {x: -21, y: -25}
-        - {x: 9, y: -25}
-        - {x: 31, y: -13}
-        - {x: 31, y: 11}
-        - {x: 29, y: 20}
-    - name: Snapper_6
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_6
       rect:
         serializedVersion: 2
         x: 466
@@ -200,48 +294,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -17, y: 25}
-        - {x: -27, y: 24}
-        - {x: -39, y: 11}
-        - {x: -39, y: -7}
-        - {x: -31, y: -24}
-        - {x: 10, y: -24}
-        - {x: 20, y: 19}
-        - {x: 20, y: 23}
-        - {x: 17, y: 25}
-      - - {x: 16, y: -19}
-        - {x: 18, y: -24}
-        - {x: 28, y: -24}
-        - {x: 29, y: -23}
-        - {x: 29, y: -14}
-        - {x: 26, y: -9}
-        - {x: 19, y: -9}
-        - {x: 16, y: -13}
-      - - {x: 22, y: 1}
-        - {x: 21, y: -1}
-        - {x: 21, y: -6}
-        - {x: 37, y: -6}
-        - {x: 38, y: -3}
-        - {x: 37, y: 0}
-        - {x: 31, y: 1}
-      - - {x: 29, y: 13}
-        - {x: 25, y: 11}
-        - {x: 25, y: 7}
-        - {x: 28, y: 5}
-        - {x: 31, y: 5}
-        - {x: 35, y: 10}
-        - {x: 35, y: 12}
-        - {x: 33, y: 13}
-      - - {x: 21, y: 21}
-        - {x: 19, y: 17}
-        - {x: 19, y: 15}
-        - {x: 22, y: 13}
-        - {x: 24, y: 13}
-        - {x: 30, y: 19}
-        - {x: 30, y: 21}
-        - {x: 27, y: 22}
-    - name: Snapper_7
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_7
       rect:
         serializedVersion: 2
         x: 546
@@ -251,48 +316,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -17, y: 25}
-        - {x: -27, y: 24}
-        - {x: -39, y: 11}
-        - {x: -39, y: -7}
-        - {x: -31, y: -24}
-        - {x: 10, y: -24}
-        - {x: 20, y: 19}
-        - {x: 20, y: 23}
-        - {x: 17, y: 25}
-      - - {x: 16, y: -19}
-        - {x: 18, y: -24}
-        - {x: 28, y: -24}
-        - {x: 29, y: -23}
-        - {x: 29, y: -14}
-        - {x: 26, y: -9}
-        - {x: 19, y: -9}
-        - {x: 16, y: -13}
-      - - {x: 22, y: 1}
-        - {x: 21, y: -1}
-        - {x: 21, y: -6}
-        - {x: 37, y: -6}
-        - {x: 38, y: -3}
-        - {x: 37, y: 0}
-        - {x: 31, y: 1}
-      - - {x: 29, y: 13}
-        - {x: 25, y: 11}
-        - {x: 25, y: 7}
-        - {x: 28, y: 5}
-        - {x: 31, y: 5}
-        - {x: 35, y: 10}
-        - {x: 35, y: 12}
-        - {x: 33, y: 13}
-      - - {x: 21, y: 21}
-        - {x: 19, y: 17}
-        - {x: 19, y: 15}
-        - {x: 22, y: 13}
-        - {x: 24, y: 13}
-        - {x: 30, y: 19}
-        - {x: 30, y: 21}
-        - {x: 27, y: 22}
-    - name: Snapper_8
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_8
       rect:
         serializedVersion: 2
         x: 626
@@ -302,18 +338,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18, y: 25}
-        - {x: -21, y: 24}
-        - {x: -35, y: 6}
-        - {x: -35, y: -12}
-        - {x: -13, y: -25}
-        - {x: 16, y: -25}
-        - {x: 21, y: -22}
-        - {x: 37, y: -9}
-        - {x: 37, y: 13}
-        - {x: 27, y: 25}
-    - name: Snapper_9
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_9
       rect:
         serializedVersion: 2
         x: 706
@@ -323,14 +360,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -40, y: 25}
-        - {x: -40, y: -23}
-        - {x: 12, y: -23}
-        - {x: 34, y: -7}
-        - {x: 34, y: 21}
-        - {x: 20, y: 25}
-    - name: Snapper_10
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_10
       rect:
         serializedVersion: 2
         x: 800
@@ -340,15 +382,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -17, y: 18}
-        - {x: -39, y: 9}
-        - {x: -40, y: 8}
-        - {x: -40, y: -23}
-        - {x: 40, y: -23}
-        - {x: 40, y: 7}
-        - {x: 20, y: 18}
-    - name: Snapper_11
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_11
       rect:
         serializedVersion: 2
         x: 880
@@ -358,14 +404,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -31, y: 24}
-        - {x: -34, y: 22}
-        - {x: -34, y: -23}
-        - {x: 40, y: -23}
-        - {x: 40, y: 9}
-        - {x: 29, y: 24}
-    - name: Snapper_12
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_12
       rect:
         serializedVersion: 2
         x: 960
@@ -375,36 +426,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 30, y: 10}
-        - {x: 7, y: 18}
-        - {x: -7, y: 18}
-        - {x: -8, y: 15}
-        - {x: -7, y: 12}
-        - {x: -11, y: 16}
-        - {x: -23, y: 18}
-        - {x: -30, y: 18}
-        - {x: -40, y: 12}
-        - {x: -40, y: -14}
-        - {x: -25, y: -23}
-        - {x: 29, y: -23}
-        - {x: 36, y: -16}
-        - {x: 39, y: -7}
-        - {x: 39, y: -3}
-      - - {x: 37, y: -14}
-        - {x: 39, y: -16}
-        - {x: 40, y: -16}
-        - {x: 40, y: -11}
-        - {x: 38, y: -11}
-      - - {x: 12, y: 19}
-        - {x: 10, y: 17}
-        - {x: 11, y: 14}
-        - {x: 23, y: 8}
-        - {x: 25, y: 8}
-        - {x: 27, y: 9}
-        - {x: 27, y: 12}
-        - {x: 19, y: 19}
-    - name: Snapper_13
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snapper_13
       rect:
         serializedVersion: 2
         x: 1040
@@ -414,20 +448,47 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18, y: 5}
-        - {x: -21, y: 1}
-        - {x: -20, y: -3}
-        - {x: -19, y: -2}
-        - {x: -25, y: -3}
-        - {x: -29, y: -2}
-        - {x: -40, y: 1}
-        - {x: -40, y: -20}
-        - {x: 38, y: -20}
-        - {x: 38, y: -1}
-        - {x: 20, y: 5}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
-  spritePackingTag: 
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snapper_0: 21300000
+      Snapper_1: 21300002
+      Snapper_10: 21300020
+      Snapper_11: 21300022
+      Snapper_12: 21300024
+      Snapper_13: 21300026
+      Snapper_2: 21300004
+      Snapper_3: 21300006
+      Snapper_4: 21300008
+      Snapper_5: 21300010
+      Snapper_6: 21300012
+      Snapper_7: 21300014
+      Snapper_8: 21300016
+      Snapper_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
